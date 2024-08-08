@@ -1,0 +1,26 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, the Dog_01.jpg is the image of a golden retriever.
+            ALEXNET, RESNET and VGG model architectures classified the breed of dog in Dog_01.jpg to be a golden retriever
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, the three model architectures (ALEXNET, RESNET and VGG) classified the breed of dog in Dog_01.jpg (which is a golden retriever) to be the same breed of dog as that model architecture classified Dog_02.jpg ( upside-down image of Dog_01.jpg )
+            Dog_01: golden retriever
+            Dog_02: golden retriever
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes, the three model architectures (ALEXNET, RESNET and VGG) correctly classified Animal_Name_01.jpg (which is bear_01.jpeg) and Object_Name_01.jpg(which is coffee_mug_01.jpeg) to not be dogs.
+            bear_01: brown bear, bruin, ursus arctos
+            coffee_mug_01: cup(in ALEXNET) and coffee mug(in RESNET & VGG)
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: For the uploaded_images, I would prefer RESNET as it provides the results accurately, both the RESNET and VGG architectures perform better than ALEXNET in classifying the images.
+        But on comparing the classification performed on uploaded_images and pet_images, I would say that VGG provides accurate results though it requires more time.
